@@ -1,0 +1,52 @@
+.item{
+    
+    background-color: rgb(179, 78, 78);
+    border: 1px solid #343a40;
+}
+
+.navbar{
+    padding: 0.5rem 0;
+}
+
+.navbar-brand{
+    padding: 0 1rem;
+    font-size: 2rem;
+}
+
+.navbar-toggler{
+    margin: 0 1rem;
+}
+
+h2{
+    margin-top: 1rem;
+}
+
+.container{
+    padding: 1rem 1rem;
+    background-color: rgb(179, 78, 78);
+    border: 2px solid black;
+}
+
+@media (min-width: 992px) {
+    .col-sm-12{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .col-sm-12{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-sm-12{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
